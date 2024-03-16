@@ -1,0 +1,136 @@
+.heading {
+    text-align: center;
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.input {
+    margin-left: 530px;
+    margin-top: 160px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button1 {
+    position: absolute;
+    margin-top: 158px;
+    margin-left: 45px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d5a813;
+    color: aliceblue;
+    border: none;
+}
+
+.button1:hover {
+    background-color: dodgerblue;
+}
+
+.button2 {
+    margin-left: 50px;
+    padding: 8px 16px;
+    color: aliceblue;
+    background-color: #6738dd;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button2:hover {
+    background-color: red;
+}
+
+.heading1 {
+    margin-left: 530px;
+    font-size: 25px;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.list {
+    margin-left: 600px;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace
+}
+
+body {
+    background-color: aquamarine;
+}
+/* mobile version */
+@media only screen and (max-width:600px) {
+    body {
+        background-color: aquamarine;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+    }
+
+    .input {
+        margin-top: 50px;
+        margin-left: 45px;
+        font-size: 21px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .button1 {
+        margin-top: 36px;
+        margin-left: 125px;
+        padding: 6px 8px;
+        background-color: green; 
+        color: aliceblue;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 2px;
+        border: none;
+    }
+
+    .button1:hover {
+        background-color: dodgerblue;
+    }
+
+    .heading1 {
+        margin-left: 46px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline;
+    }
+
+    .button2 {
+        margin-left: 50px;
+        padding: 6px 9px;
+        font-size: 15px;
+        background-color: blueviolet;
+        color: aliceblue;
+        border-radius: 2px;
+        border: none;
+    }
+
+    .button2:hover {
+        background-color: red;
+    }
+
+    .list {
+        margin-left: 50px;
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+    }
+}
